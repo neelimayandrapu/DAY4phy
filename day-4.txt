@@ -1,0 +1,220 @@
+1)# write a program to evalute list upper cubes till the range of 10
+cubes=[]
+for i in range(11):
+    cubes.append(i**3)
+print(cubes)
+
+[0, 1, 8, 27, 64, 125, 216, 343, 512, 729, 1000]
+
+
+2)# to find the sum and mean of series 0 to 10
+abc=[1,2,3,4,5,6,7,8,9,10]
+sum=0
+for i in abc:
+    sum+=i
+print(sum)
+print(sum/len(abc))
+
+55
+5.5
+
+3)# strings
+str1='ABCDEFG'
+str2='ate'
+for l in str1:
+    print((l+str2),end='\n')
+
+Aate
+Bate
+Cate
+Date
+Eate
+Fate
+Gate
+
+
+4)# print min value of given values
+a=[90,0,8,7]
+print(min(a))
+
+0
+
+5)# print max value of given values
+a=[90,0,8,7]
+print(max(a))
+
+90
+
+6)# list 
+list1=['mahesh', 'teja']
+list2=['arvind']
+list1.extend(list2)
+print(list1)
+
+['mahesh', 'teja', 'arvind']
+
+
+
+7)#sorted
+ab=[-1,-99,99,231,86]
+x=sorted(ab)
+print(x)
+
+[0, -99, 99, 231, 86, 544]
+
+8)#counted
+ab=[-0,-99,99,231,86]
+print(ab.count(4))
+
+0
+
+8)# insert
+ab=[6,3,7,0,3,7,6,0]
+ab.insert(3,100)
+print(ab)
+
+[6, 3, 7, 100, 0, 3, 7, 6, 0]
+
+
+9) #remove
+ab=[6,3,2,0,3,5,6,0,]
+(ab.remove(5))
+print(ab)
+
+[6, 3, 2, 0, 3, 6, 0]
+
+
+10)# sorted
+a=[1,5,9,2,7,10]
+x=sorted(a)
+print(x)
+
+[1, 2, 5, 7, 9, 10]
+
+11)# reverse of a given string
+a=['a','b','c','d','e','f']
+x=sorted(a,reverse=True)
+print(x)
+
+['f', 'e', 'd', 'c', 'b', 'a']
+
+12)# sorted
+a=[2,5,8,9,10,0]
+x=sorted(a)
+print(x)
+
+[0, 2, 5, 8, 9, 10]
+
+13)# before sorting after sorting
+print("input six integers:")
+nums=list(map(int,input().split()))
+nums.sort()
+nums.reverse()
+print("after sorting the integers:")
+print(nums)
+
+input six integers:
+1 3 5 8 9 7
+after sorting the integers:
+[9, 8, 7, 5, 3, 1]
+
+14)# reverse of a numbers
+a=[45,12,10,67]
+x=sorted(a,reverse=True)
+print(x)
+
+[67, 45, 12, 10]
+
+15)# append
+a=[45,12,10,67]
+a.append(5)
+print(a)
+
+[45, 12, 10, 67, 5]
+
+16)def hanoi (,a,b,c,n)
+if n>0:
+    hanoi(n-1,a,c,b)
+    if a:
+        c=append(a,pop())
+    hanoi(n-1,b,)
+    a=[1,2,3,4]
+    b=[]
+    c=[]
+    hanoi(len(a),a,b,c)
+    print(a,b,c)
+
+
+17)#sum of n numbers
+n=[11,22,66,55,88,66,]
+print(sum(n))
+
+308
+
+18)# reverse of given numbers
+n=[11,22,66,55,88,66,]
+n.reverse()
+print(n)
+
+[66, 88, 55, 66, 22, 11]
+
+19)n=[11,10,-1,-9,88,]
+sorted(n)
+
+[-9, -1, 10, 11, 88]
+
+20)n=['1','a','abc','2','B','Def']
+n.sort()
+print(n)
+
+['1', '2', 'B', 'Def', 'a', 'abc']
+
+21)txt=['p','r','o','g','r','a','m']
+txt[2:5]=[]
+print(txt)
+
+['p', 'r', 'a', 'm']
+
+22)# complile a list of cubes for given number
+cubes=[]
+for i in range(11):
+    cubes.append(i**3)
+print(cubes)    
+
+[0, 1, 8, 27, 64, 125, 216, 343, 512, 729, 1000]
+
+23)n=[1,2,3,4,5]
+it=iter(n)
+for i in range(len(n))
+print(("elements at index",i,list)
+
+24)n=int(input("enter a number"))
+if n==0:
+    print("time estimated : 0 Minutes")
+elif n in range(1,2001):
+    print("time estimated : 25 Minutes")
+elif n in range(2001,4001):
+    print("time estimated : 35 Minutes")
+elif n in range(4001,7001):
+    print("time estimated : 45 Minutes")
+else:
+    print("invalid input")
+
+
+
+enter a number2000
+time estimated : 25 Minutes
+
+25)al=int(input())
+x=0
+y=0
+for i in range(1,val+1):
+    if(i%2!=0):
+        x=x+7
+else:
+    y=y+6
+if(val%2!=0):
+    print("{} term is {}",format(val,x+7))
+    print("{} term is {}",format(val,y+6))
+
+10
